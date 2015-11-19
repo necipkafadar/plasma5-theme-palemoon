@@ -1,1 +1,4 @@
- 
+skin	browser			plasma5-theme-palemoon	chrome/browser/
+skin	comunicator		plasma5-theme-palemoon	chrome/communicator/
+skin	global			plasma5-theme-palemoon	chrome/global/
+skin 	mozapps			plasma5-theme-palemoon	chrome/mozapps/
