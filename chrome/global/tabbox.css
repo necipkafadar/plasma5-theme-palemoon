@@ -34,10 +34,12 @@ tabpanels {
 
 tab {
   position: relative;
-  -moz-appearance: tab;
-  margin-top: 2px;
-  border: 2px solid;
+  -moz-appearance: none;
+  border: 0 solid !important;
   border-bottom: none;
+  border-top-width: 0 !important;
+  border-bottom-width: 0 !important;
+  border-radius: 0 !important;
   -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
   -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
   -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;

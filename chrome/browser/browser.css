@@ -1677,40 +1677,41 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #TabsToolbar[tabsontop=false] {
-  background-image: linear-gradient(to top, rgba(0,0,0,.3) 1px, rgba(0,0,0,.05) 1px, transparent 50%);
+  /*background-image: linear-gradient(to top, rgba(0,0,0,.3) 1px, rgba(0,0,0,.05) 1px, transparent 50%);*/
 }
 
 .tabbrowser-tab,
 .tabs-newtab-button {
   position: static;
   -moz-appearance: none;
-  background: linear-gradient(hsla(0,0%,100%,.2), hsla(0,0%,45%,.2) 2px, hsla(0,0%,32%,.2) 80%);
   background-origin: border-box;
   background-position: 1px 2px;
   background-size: 100% calc(100% - 2px);
   background-repeat: no-repeat;
   color: inherit;
-  margin: 0;
-  padding: 0;
-  border-width: 4px 5px 3px 6px;
+  margin: 0 1px 0 1px !important;
+  padding: 2px !important;
+  border-width: 0 !important;
   border-style: solid;
   border-image: url(tabbrowser/tab.png) 4 5 3 6 fill repeat stretch;
-  border-radius: 10px 8px 0 0;
-  min-height: 25px; /* reserve space for the sometimes hidden close button */
+  border-radius: 0;
+  min-height: 30px; /* reserve space for the sometimes hidden close button */
+  background-color: #FBFBFB;
 }
 
 .tabbrowser-tab:hover,
 .tabs-newtab-button:hover {
-  background-image: linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.2) 4px, hsla(0,0%,75%,.2) 80%);
+  /*background-image: linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.2) 4px, hsla(0,0%,75%,.2) 80%);*/
+  background-color: #F0F0F0;
 }
 
 .tabbrowser-tab[selected="true"] {
-  background-image: linear-gradient(rgba(255,255,255,.8) 1px, rgba(255,255,255,.5) 3px, rgba(255,255,255,.3) 32%),
-                    linear-gradient(-moz-dialog, -moz-dialog);
+  background-image: none !important;
+  background-color: white;
 }
 
 .tabbrowser-tab[selected="true"]:not(:-moz-lwtheme) {
-  color: -moz-dialogtext;
+  color: black;
 }
 
 #main-window[tabsontop=false]:not([disablechrome]) .tabbrowser-tab[selected=true]:not(:-moz-lwtheme) {
