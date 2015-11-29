@@ -11,10 +11,10 @@
 /* ::::: toolbarbutton ::::: */
 
 toolbarbutton {
-  -moz-appearance: toolbarbutton;
+  -moz-appearance: none;
   -moz-box-align: center;
   -moz-box-pack: center;
-  margin: 0;
+  margin: 0 1px 0 1px;
   padding: 3px;
   color: -moz-DialogText;
 }
@@ -39,6 +39,7 @@ toolbarbutton.tabbable {
 
 toolbarbutton:hover {
   color: -moz-buttonhovertext;
+  background-color: #FBFBFB;
 }
 
 toolbarbutton:hover:active,

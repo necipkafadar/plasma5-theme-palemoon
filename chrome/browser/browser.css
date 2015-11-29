@@ -159,6 +159,8 @@ menuitem.bookmark-item {
 /* Bookmark items */
 .bookmark-item {
   list-style-image: url("chrome://mozapps/skin/places/defaultFavicon.png");
+  padding-left: 7px !important;
+  padding-right: 7px !important;
 }
 
 .bookmark-item[container] {
@@ -1828,8 +1830,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 .tab-close-button {
   padding: 0;
   list-style-image: url("moz-icon://stock/gtk-close?size=menu");
-  margin-top: -1px;
-  margin-bottom: -1px;
+  margin: -1px 3px -1px 1px !important;
   -moz-margin-end: -1px;
 }
 
