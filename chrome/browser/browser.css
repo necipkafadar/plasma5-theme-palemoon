@@ -1862,7 +1862,6 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   -moz-border-start: 2px solid transparent;
   -moz-border-end: 0;
   transition: 1s box-shadow ease-out;
-  border-radius: 4px;
 }
 
 .tabbrowser-arrowscrollbox > .scrollbutton-down[notifybgtab] {
