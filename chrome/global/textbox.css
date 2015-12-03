@@ -12,14 +12,9 @@
 /* ::::: textbox ::::: */
 
 textbox {
-  -moz-appearance: textfield;
+  -moz-appearance: none;
   cursor: text;
   margin: 2px 4px;
-  border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
   padding: 2px 3px 3px;
   -moz-padding-start: 5px;
   background-color: -moz-Field;
