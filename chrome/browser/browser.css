@@ -882,7 +882,8 @@ toolbar[iconsize="small"] #webrtc-status-button {
 /* Location bar */
 #urlbar {
   width: 7em;
-  -moz-appearance: textfield;
+  -moz-appearance: none;
+  background-color: white;
   padding: 0;
 }
 
@@ -1021,8 +1022,6 @@ window:not([chromehidden~=toolbar]) :-moz-any(#nav-bar[currentset*="unified-back
 }
 
 #identity-box:-moz-locale-dir(ltr) {
-  border-top-left-radius: 2.5px;
-  border-bottom-left-radius: 2.5px;
 }
 
 #identity-box:-moz-locale-dir(rtl) {
@@ -1041,21 +1040,15 @@ window:not([chromehidden~=toolbar]) :-moz-any(#nav-bar[currentset*="unified-back
 }
 
 #urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
-  color: rgb(95,127,67);
+  color: rgb(244,255,233);
   -moz-margin-end: 4px;
-  background-image: linear-gradient(rgba(226,246,208,1),
-                                    rgba(203,235,177,1));
-  background-position: right;
-  background-repeat: no-repeat;
+  background-color: rgb(46,204,113);
 }
 
 #urlbar[pageproxystate="valid"] > #identity-box.verifiedDomain {
-  color: rgb(51,87,137);
+  color: rgb(255,241,254);
   -moz-margin-end: 4px;
-  background-image: linear-gradient(rgba(220,231,245,1),
-                                    rgba(207,221,242,1));
-  background-position: right;
-  background-repeat: no-repeat;
+  background-color: rgb(82,179,217);
 }
 
 #identity-box.verifiedIdentity:-moz-locale-dir(rtl) {
@@ -1066,24 +1059,24 @@ window:not([chromehidden~=toolbar]) :-moz-any(#nav-bar[currentset*="unified-back
 
 #urlbar[https_color="all"][security_level="broken"],
 #urlbar[https_color="all"][security_level="low"] {
-  box-shadow: inset 0 0 4px rgb(168,0,0);
+  background-color: rgb(245,142,140);
 }
 
 #urlbar[https_color="all"][security_level="mixed"],
 #urlbar[https_color="secure-mixed"][security_level="mixed"] {
-  box-shadow: inset 0 0 4px rgb(168,79,0);
+  background-color: rgb(253,227,167);
 }
 
 #urlbar[https_color="all"][security_level="high"],
 #urlbar[https_color="secure-mixed"][security_level="high"],
 #urlbar[https_color="secure-only"][security_level="high"] {
-  box-shadow: inset 0 0 4px rgb(0,79,168);
+  background-color: #E4F1FE;
 }
 
 #urlbar[https_color="all"][security_level="ev"],
 #urlbar[https_color="secure-mixed"][security_level="ev"],
 #urlbar[https_color="secure-only"][security_level="ev"] {
-  box-shadow: inset 0 0 4px rgb(0,168,0);
+  background-color: rgb(200,247,197);
 }
 
 #urlbar[https_color="all"]:-moz-lwtheme-darktext,
