@@ -13,7 +13,7 @@
 menu,
 menuitem,
 .splitmenu-menuitem {
-  -moz-appearance: menuitem;
+  -moz-appearance: none;
   -moz-box-align: center;
   max-width: 42em;
   color: MenuText;
@@ -37,6 +37,12 @@ menu[disabled="true"],
 menuitem[disabled="true"],
 .splitmenu-menuitem[disabled="true"] {
   color: GrayText;
+}
+
+menu[disabled="true"],
+menuitem[_moz-menuactive="true"],
+.splitmenu-menuitem[_moz-menuactive="true"] {
+  color: -moz-menuhovertext;
 }
 
 menubar > menu {
