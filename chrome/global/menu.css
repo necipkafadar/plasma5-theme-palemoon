@@ -20,6 +20,7 @@ menuitem,
   font: menu;
   list-style-image: none;
   -moz-image-region: auto;
+  padding: 2px 0 2px 0;
 }
 
 menuitem[default="true"] {
@@ -48,6 +49,7 @@ menuitem[_moz-menuactive="true"],
 menubar > menu {
   padding: 0px 4px;
   color: -moz-menubartext;
+  margin: 0 0 1px 0 !important;
 }
 
 menubar:-moz-lwtheme > menu {
@@ -170,7 +172,7 @@ menuitem[checked="true"] {
 }
 
 menuitem[type="checkbox"] {
-  -moz-appearance: checkmenuitem !important;
+  -moz-appearance: none !important;
 }
 
 /* ::::: radio menuitem ::::: */
