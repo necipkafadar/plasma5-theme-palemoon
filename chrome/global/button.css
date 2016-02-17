@@ -11,17 +11,11 @@
 /* :::::::::: button :::::::::: */
 
 button {
-  -moz-appearance: button;
+  -moz-appearance: none;
   margin: 1px 5px 2px 5px;
   min-width: 6.3em;
-  border: 3px solid;
-  -moz-border-top-colors: transparent ThreeDHighlight ThreeDLightShadow;
-  -moz-border-right-colors: transparent ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: transparent ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: transparent ThreeDHighlight ThreeDLightShadow;
-  background-color: ThreeDFace;
-  color: ButtonText;
-  text-shadow: none;
+  background-color: #FBFBFB;
+  padding: 2px;
 }
 
 .button-box {
@@ -68,7 +62,7 @@ button[default="true"] {
 
 button:hover {
   color: -moz-buttonhovertext;
-  background-color: -moz-buttonhoverface;
+  background-color: #22A7F0;
 }
 
 /* .......... active/open/checked state .......... */

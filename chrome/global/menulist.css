@@ -12,11 +12,13 @@
 /* :::::::::: menulist :::::::::: */
 
 menulist {
-  -moz-appearance: menulist;
+  -moz-appearance: none;
   margin: 2px 4px;
   color: -moz-DialogText;
   font: menu;
   text-shadow: none;
+  padding: 0 5px 2px 5px;
+  background-color: white;
 }
 
 .menulist-label-box {
