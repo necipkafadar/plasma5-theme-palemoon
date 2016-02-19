@@ -4,12 +4,13 @@
     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>plasma5@itu.edu.tr</em:id>
-    <em:version>0.1.0</em:version>
+    <em:version>0.3.0</em:version>
     <em:name>plasma5-theme-palemoon</em:name>
-    <em:description>KDE Plasma5 Theme for the Pale Moon. Enjoy the simplicity and flatness.</em:description>
+    <em:description>KDE Plasma5 Theme for the Pale Moon and Firefox. Enjoy the simplicity and flatness.</em:description>
     <em:creator>Necip Kafadar</em:creator>
     <em:type>4</em:type>
     <em:internalName>plasma5-theme-palemoon</em:internalName>
+
     <em:targetApplication>
       <Description>
         <!-- Pale Moon -->
@@ -18,5 +19,15 @@
         <em:maxVersion>26.*</em:maxVersion>
       </Description>
     </em:targetApplication>
+
+    <!-- Firefox -->
+      <em:targetApplication>
+         <Description>
+            <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+            <em:minVersion>11.0</em:minVersion>
+            <em:maxVersion>28.0</em:maxVersion>
+         </Description>
+      </em:targetApplication>
+
   </Description>
 </RDF>
