@@ -1,4 +1,4 @@
-menubar, toolbar, nav-bar, #TabsToolbar > * {
+menubar, toolbar, #addon-bar, nav-bar, .tabbrowser-tab[selected="true"], #TabsToolbar > * {
   background-color: -moz-dialog !important;
 }
 
@@ -50,5 +50,23 @@ label {
 
 toolbarbutton:hover {
   color: -moz-buttonhovertext;
-  background-color: #FBFBFB;
+  background-color: #FBFBFB !important;
+}
+
+.tabbrowser-tab:hover,
+.tabs-newtab-button:hover {
+  /*background-image: linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.2) 4px, hsla(0,0%,75%,.2) 80%);*/
+  background-color: -moz-dialog !important;
+}
+
+.searchbar-textbox, #urlbar {
+  background-color: -moz-field !important;
+}
+
+.progressmeter-statusbar {
+  background-color: white !important;
+}
+
+::-moz-selection { 
+    background-color: #3daee9;
 }

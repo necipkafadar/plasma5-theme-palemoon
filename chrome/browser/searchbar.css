@@ -11,6 +11,7 @@
 
 .autocomplete-textbox-container {
   -moz-box-align: stretch;
+  padding: -2px 0 0 0;
 }
 
 .textbox-input-box {

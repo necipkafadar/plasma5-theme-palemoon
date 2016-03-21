@@ -1696,7 +1696,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   background-color: #FBFBFB;
 }
 
-.tabbrowser-tab:hover,
+ .tabbrowser-tab:hover,
 .tabs-newtab-button:hover {
   /*background-image: linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.2) 4px, hsla(0,0%,75%,.2) 80%);*/
   background-color: #F0F0F0;
