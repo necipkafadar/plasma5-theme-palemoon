@@ -1,0 +1,41 @@
+menubar, toolbar, #addon-bar, nav-bar, .tabbrowser-tab[selected="true"], #TabsToolbar > * {
+  background-color: #31363b !important;
+}
+
+tabpanels {
+  -moz-appearance: none !important;
+}
+
+menubar, toolbar[type="menubar"] {
+  -moz-appearance: none !important;
+}
+
+#nav-bar:not(:-moz-lwtheme),
+#nav-bar[collapsed=true] + toolbar:not(:-moz-lwtheme),
+#nav-bar[collapsed=true] + #customToolbars + #PersonalToolbar:not(:-moz-lwtheme),
+#nav-bar[tabsontop=true],
+#nav-bar[tabsontop=true][collapsed=true]:not([customizing]) + toolbar,
+#nav-bar[tabsontop=true][collapsed=true]:not([customizing]) + #customToolbars + #PersonalToolbar {
+  background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) !important;
+}
+
+toolbar {
+  -moz-appearance: none !important;
+  min-width: 1px;
+  min-height: 20px;
+  padding: 2px 0px;
+}
+
+.tabbrowser-tab,
+.tabs-newtab-button {
+  background-color: #4d4d4d !important;
+}
+
+description, label {
+  color: #eff0f1 !important;
+}
+
+toolbarbutton:hover {
+  color: -moz-buttonhovertext;
+  background-color: #4d4d4d !important;
+}

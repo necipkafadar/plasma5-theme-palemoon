@@ -1,0 +1,54 @@
+menubar, toolbar, nav-bar, #TabsToolbar > * {
+  background-color: -moz-dialog !important;
+}
+
+tabpanels {
+  -moz-appearance: tabpanels;
+  border: 2px solid;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
+  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
+  padding: 8px;
+  background-color: -moz-Dialog;
+  color: -moz-DialogText;
+}
+
+menubar, toolbar[type="menubar"] {
+  -moz-appearance: menubar;
+  min-width: 1px;
+  min-height: 20px;
+  padding: 1px 0px;
+}
+
+toolbar {
+  -moz-appearance: toolbar;
+  min-width: 1px;
+  min-height: 20px;
+  padding: 2px 0px;
+}
+
+#addon-bar {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15) inset;
+  padding: 0;
+  min-height: 20px;
+}
+
+.tabbrowser-tab,
+.tabs-newtab-button {
+  background-color: #FBFBFB !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+  background-color: white !important;
+}
+
+description,
+label {
+  color: inherit !important;
+}
+
+toolbarbutton:hover {
+  color: -moz-buttonhovertext;
+  background-color: #FBFBFB;
+}
