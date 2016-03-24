@@ -3,15 +3,9 @@ menubar, toolbar, #addon-bar, nav-bar, .tabbrowser-tab[selected="true"], #TabsTo
 }
 
 tabpanels {
-  -moz-appearance: tabpanels;
-  border: 2px solid;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
-  padding: 8px;
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  -moz-appearance: tabpanels !important;
+  border: none !important;
+  background-color: -moz-Dialog !important;
 }
 
 menubar, toolbar[type="menubar"] {
@@ -96,4 +90,13 @@ wizard,
 prefwindow {
   -moz-appearance: window !important;
   background-color: -moz-Dialog !important;
+}
+
+button {
+  background-color: #FBFBFB !important;
+}
+
+button:hover {
+  color: -moz-buttonhovertext !important;
+  background-color: #22A7F0 !important;
 }
