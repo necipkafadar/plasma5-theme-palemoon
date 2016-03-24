@@ -22,7 +22,6 @@ richlistitem[selected="true"] {
 
 richlistbox:focus > richlistitem[selected="true"] {
   background-color: Highlight;
-  color: HighlightText;
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"] {

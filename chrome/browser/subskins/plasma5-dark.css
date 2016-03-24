@@ -58,3 +58,30 @@ toolbarbutton:hover {
     background-color: #4d4d4d;
     color: white;
 }
+
+menubar > menu[open] {
+  color: -moz-menubarhovertext;
+  background-color: #2980b9 !important;
+}
+
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"],
+.splitmenu-menuitem[_moz-menuactive="true"] {
+  color: -moz-menuhovertext;
+  background-color: #2980b9 !important;
+}
+
+menupopup,
+panel {
+  -moz-appearance: none !important;
+  background-color: #31363b !important;
+}
+
+window,
+page,
+dialog,
+wizard,
+prefwindow {
+  -moz-appearance: none !important;
+  background-color: #4d4d4d !important;
+}

@@ -70,3 +70,30 @@ toolbarbutton:hover {
 ::-moz-selection { 
     background-color: #3daee9;
 }
+
+menubar > menu[open] {
+  color: -moz-menubarhovertext;
+  background-color: -moz-menuhover !important;
+}
+
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"],
+.splitmenu-menuitem[_moz-menuactive="true"] {
+  color: -moz-menuhovertext;
+  background-color: -moz-menuhover !important;
+}
+
+menupopup,
+panel {
+  -moz-appearance: menupopup;
+  background-color: -moz-dialog !important;
+}
+
+window,
+page,
+dialog,
+wizard,
+prefwindow {
+  -moz-appearance: window !important;
+  background-color: -moz-Dialog !important;
+}
