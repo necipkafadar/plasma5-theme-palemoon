@@ -4,7 +4,7 @@
     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>plasma5@itu.edu.tr</em:id>
-    <em:version>0.3.0</em:version>
+    <em:version>0.5.0</em:version>
     <em:name>plasma5-theme-palemoon</em:name>
     <em:description>KDE Plasma5 Theme for the Pale Moon and Firefox. Enjoy the simplicity and flatness.</em:description>
     <em:creator>Necip Kafadar</em:creator>
