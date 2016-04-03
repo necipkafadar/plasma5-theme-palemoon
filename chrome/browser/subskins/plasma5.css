@@ -100,3 +100,23 @@ button:hover {
   color: -moz-buttonhovertext !important;
   background-color: #22A7F0 !important;
 }
+
+.addon {
+  background-color: white !important;
+}
+
+.addon[selected] {
+  background-color: #2980b9 !important;
+}
+
+.category {
+  background-color: transparent !important
+}
+
+.category[selected] {
+  background-color: -moz-field !important; 
+}
+
+.alert {
+  background-color: Window !important;
+}
