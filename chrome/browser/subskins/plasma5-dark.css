@@ -117,3 +117,7 @@ button:hover {
 .alert {
   background-color: #4d4d4d !important;
 }
+
+.panel-arrowcontent {
+  background-color: #31363b !important;
+}

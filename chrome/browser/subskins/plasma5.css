@@ -120,3 +120,7 @@ button:hover {
 .alert {
   background-color: Window !important;
 }
+
+.panel-arrowcontent {
+  background-color: window !important;
+}
