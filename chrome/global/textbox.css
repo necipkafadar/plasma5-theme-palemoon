@@ -19,6 +19,7 @@ textbox {
   -moz-padding-start: 5px;
   background-color: -moz-Field;
   color: -moz-FieldText;
+  border: 1px solid grey;
 }
 
 html|*.textbox-input, 

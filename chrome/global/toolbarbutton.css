@@ -15,8 +15,9 @@ toolbarbutton {
   -moz-box-align: center;
   -moz-box-pack: center;
   margin: 0 1px 0 1px;
-  padding: 3px;
+  padding: 0;
   color: -moz-DialogText;
+  border: 1px solid transparent !important;
 }
 
 toolbarbutton:-moz-lwtheme {
