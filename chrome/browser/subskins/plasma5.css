@@ -1,4 +1,4 @@
-menubar, toolbar, #addon-bar, nav-bar, .tabbrowser-tab[selected="true"], #TabsToolbar > * {
+menubar, toolbar, #addon-bar, nav-bar, .tabbrowser-tab[selected="true"]{
   background-color: -moz-dialog !important;
 }
 
