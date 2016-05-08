@@ -45,8 +45,8 @@ page,
 dialog,
 wizard,
 prefwindow {
-  -moz-appearance: none !important;
-  background-color: #4d4d4d !important;
+  -moz-appearance: window;
+  background-color: -moz-Dialog;
   color: -moz-DialogText;
   font: message-box;
 }
