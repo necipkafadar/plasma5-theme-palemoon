@@ -9,14 +9,14 @@ tabpanels {
 }
 
 menubar, toolbar[type="menubar"] {
-  -moz-appearance: menubar;
+  -moz-appearance: none !important;
   min-width: 1px;
   min-height: 20px;
   padding: 1px 0px;
 }
 
 toolbar {
-  -moz-appearance: toolbar;
+  -moz-appearance: none !important;
   min-width: 1px;
   min-height: 20px;
   padding: 2px 0px;
@@ -50,7 +50,6 @@ toolbarbutton:hover {
 
 .tabbrowser-tab:hover,
 .tabs-newtab-button:hover {
-  /*background-image: linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.2) 4px, hsla(0,0%,75%,.2) 80%);*/
   background-color: -moz-dialog !important;
 }
 
@@ -63,7 +62,7 @@ toolbarbutton:hover {
 }
 
 ::-moz-selection { 
-    background-color: #3daee9;
+    background-color: #3daee9 !important;
 }
 
 menubar > menu[open] {
@@ -120,7 +119,7 @@ button:hover {
 }
 
 .alert {
-  background-color: Window !important;
+  background-color: window !important;
 }
 
 .panel-arrowcontent {

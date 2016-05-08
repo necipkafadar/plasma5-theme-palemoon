@@ -46,7 +46,6 @@ toolbarbutton:hover {
 
 .tabbrowser-tab:hover,
 .tabs-newtab-button:hover {
-  /*background-image: linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.2) 4px, hsla(0,0%,75%,.2) 80%);*/
   background-color: #3b4147 !important;
 }
 
@@ -59,8 +58,8 @@ toolbarbutton:hover {
 }
 
 ::-moz-selection { 
-    background-color: #4d4d4d;
-    color: white;
+    background-color: #4d4d4d !important;
+    color: white !important;
 }
 
 menubar > menu[open] {
