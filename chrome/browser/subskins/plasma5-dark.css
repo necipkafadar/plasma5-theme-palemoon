@@ -84,7 +84,8 @@ window,
 page,
 dialog,
 wizard,
-prefwindow {
+prefwindow,
+prefpane {
   -moz-appearance: none !important;
   background-color: #31363b !important;
 }
