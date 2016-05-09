@@ -1,1 +1,81 @@
- 
+tabpanels {
+  -moz-appearance: none !important;
+  border: 1px solid black !important;
+  border-radius: 2px !important;
+}
+
+menubar, toolbar[type="menubar"] {
+  -moz-appearance: none !important;
+}
+
+#nav-bar:not(:-moz-lwtheme),
+#nav-bar[collapsed=true] + toolbar:not(:-moz-lwtheme),
+#nav-bar[collapsed=true] + #customToolbars + #PersonalToolbar:not(:-moz-lwtheme),
+#nav-bar[tabsontop=true],
+#nav-bar[tabsontop=true][collapsed=true]:not([customizing]) + toolbar,
+#nav-bar[tabsontop=true][collapsed=true]:not([customizing]) + #customToolbars + #PersonalToolbar {
+  background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) !important;
+}
+
+toolbar {
+  -moz-appearance: none !important;
+  min-width: 1px;
+  min-height: 20px;
+  padding: 2px 0px;
+}
+
+
+description, label {
+  color: black !important;
+}
+
+toolbarbutton:hover {
+  color: -moz-buttonhovertext;
+  background-color: transparent !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+
+.searchbar-textbox, #urlbar {
+  background-color: white !important;
+}
+
+.progressmeter-statusbar {
+  background-color: #E1E5E8 !important;
+}
+
+::-moz-selection { 
+    color: white !important;
+}
+
+menubar > menu[open] {
+  color: -moz-menubarhovertext;
+}
+
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"],
+.splitmenu-menuitem[_moz-menuactive="true"] {
+  color: -moz-menuhovertext;
+}
+
+menupopup,
+panel {
+  -moz-appearance: none !important;
+}
+
+window,
+page,
+dialog,
+wizard,
+prefwindow,
+prefpane {
+  -moz-appearance: none !important;
+}
+
+button {
+  color: white !important;
+}
+
+button:hover {
+  color: -moz-buttonhovertext;
+}
