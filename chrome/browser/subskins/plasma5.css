@@ -87,7 +87,8 @@ window,
 page,
 dialog,
 wizard,
-prefwindow {
+prefwindow,
+prefpane {
   -moz-appearance: window !important;
   background-color: -moz-Dialog !important;
 }
