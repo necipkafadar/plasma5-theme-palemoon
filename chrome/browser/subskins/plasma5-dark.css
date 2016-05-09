@@ -143,3 +143,8 @@ button:hover {
   margin-top: 0px !important;
   background-color: #31363b !important;
 }
+
+.autocomplete-richlistitem:hover,
+.autocomplete-richlistitem[selected='true'] {
+  background-color: Highlight !important;
+}
