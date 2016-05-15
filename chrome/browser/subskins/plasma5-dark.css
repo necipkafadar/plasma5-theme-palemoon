@@ -148,3 +148,7 @@ button:hover {
 .autocomplete-richlistitem[selected='true'] {
   background-color: Highlight !important;
 }
+
+.alertBox {
+  background-color: #31363b !important;
+}
