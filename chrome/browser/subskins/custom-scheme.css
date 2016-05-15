@@ -49,13 +49,13 @@ toolbarbutton:hover {
 }
 
 menubar > menu[open] {
-  color: -moz-menubarhovertext;
+  color: -moz-menubarhovertext !important;
 }
 
 menu[_moz-menuactive="true"],
 menuitem[_moz-menuactive="true"],
 .splitmenu-menuitem[_moz-menuactive="true"] {
-  color: -moz-menuhovertext;
+  color: -moz-menuhovertext !important;
 }
 
 menupopup,
@@ -77,5 +77,5 @@ button {
 }
 
 button:hover {
-  color: -moz-buttonhovertext;
+  color: -moz-buttonhovertext !important;
 }
